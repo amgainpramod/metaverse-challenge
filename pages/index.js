@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <h1>Welcome to the APP</h1>
       <button
-        className="bg-yellow-500 rounded-lg p-5 font-bold animate-pulse"
+        className="bg-cyan-600 rounded-lg p-5 font-bold animate-pulse"
         onClick={logout}
       >
         Logout
