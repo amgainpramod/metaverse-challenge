@@ -10,8 +10,7 @@ function Login() {
   const { authenticate } = useMoralis();
 
   return (
-    <div className="bg-black relative">
-      <h1>I'm a login Screen</h1>
+    <div className="relative overflow-hidden">
       <div className="flex flex-col absolute z-50 h-5/6 w-full items-center justify-center space-y-4">
         {/* logo */}
         <Image
